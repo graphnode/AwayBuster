@@ -10,6 +10,9 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <UseWindowsForms>true</UseWindowsForms>
         <ApplicationIcon>icon.ico</ApplicationIcon>
+        <PublishSingleFile>true</PublishSingleFile>
+        <SelfContained>false</SelfContained>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     </PropertyGroup>
 
     <PropertyGroup Condition="$(Configuration.Contains('Release')) ">
